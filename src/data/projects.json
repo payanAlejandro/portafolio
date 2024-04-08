@@ -1,0 +1,14 @@
+[
+  {
+    "title": "FroentEnd SIE UTSLRC",
+    "imageSrc": "projects/SIE.png",
+    "description": "This is a project made to get approved the university practices.",
+    "skills": ["VueJS", "HTML"]
+  },
+  {
+    "title": "uParkingLot",
+    "imageSrc": "projects/uparkinglot.jpg",
+    "description": "This is a project made to learn to use IoT implemented real life.",
+    "skills": ["HTML", "IoT"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Backend Developer",
+    "organisation": "SIGOB S.A DE C.V",
+    "startDate": "march, 2023",
+    "endDate": "Present",
+    "experiences": ["Worked on OPENSIR project"],
+    "imageSrc": "history/sigob.png"
+  },
+  {
+    "role": "FrontEnd Developer",
+    "organisation": "Universidad Tecnologica de San Luis Rio Colorado",
+    "startDate": "Sep, 2022",
+    "endDate": "Dec, 2022",
+    "experiences": ["Worked on design of website"],
+    "imageSrc": "history/ut.png"
+  }
+]
