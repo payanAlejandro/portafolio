@@ -4,8 +4,28 @@
     "imageSrc": "skills/python.png"
   },
   {
+    "title": "Mulesoft",
+    "imageSrc": "skills/mulesoft_.png"
+  },
+  {
+    "title": "Salesforce",
+    "imageSrc": "skills/salesforce.png"
+  },
+  {
     "title": "GIT",
     "imageSrc": "skills/GIT.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
   },
   {
     "title": "VueJS",
@@ -19,14 +39,7 @@
     "title": "CSS",
     "imageSrc": "skills/css.png"
   },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
+
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"

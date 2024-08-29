@@ -1,14 +1,20 @@
 [
   {
-    "title": "FroentEnd SIE UTSLRC",
+    "title": "Front-end SIE UTSLRC",
     "imageSrc": "projects/SIE.png",
     "description": "This is a project made to get approved the university practices.",
-    "skills": ["VueJS", "HTML"]
+    "skills": ["VueJS", "HTML","PHP","JavaScript"]
   },
   {
     "title": "uParkingLot",
-    "imageSrc": "projects/uparkinglot.jpg",
+    "imageSrc": "projects/uparkinglot.png",
     "description": "This is a project made to learn to use IoT implemented real life.",
-    "skills": ["HTML", "IoT"]
+    "skills": ["Python", "IoT", "NodeJs","HTML"]
+  },
+  {
+    "title": "Mulesoft Integration",
+    "imageSrc": "projects/mule.png",
+    "description": "This is a project made to learn to use IoT implemented real life.",
+    "skills": ["Mule 4","Salesforce" ,"Anypoint", "REST"]
   }
 ]

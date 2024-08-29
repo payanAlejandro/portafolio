@@ -84,6 +84,16 @@
   font-size: 25px;
 }
 
+.aboutItemText2 {
+  margin-left: 15px; 
+}
+
+.aboutImage {
+  margin-left: 20px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+
+
+
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;

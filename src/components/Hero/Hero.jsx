@@ -7,11 +7,10 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Alejandro</h1>
+        <h1 className={styles.title}>Alejandro Payan</h1>
         <p className={styles.description}>
-          I'm a university student and a junior backend developer.
-        </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        Software Development and Management Engineer specialized in backend, with experience in creating robust systems and APIs. Currently, I'm learning MuleSoft and Salesforce to expand my skills in system integration and CRM.</p>
+        <a href="mailto:payan.m.alejandro@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

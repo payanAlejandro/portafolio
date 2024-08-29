@@ -18,9 +18,10 @@ export const About = () => {
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
+              <br/>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              Specialized in Python and Node.js, with experience in API creation and database management.
+              Able to build and maintain scalable systems, ensuring efficiency and security in server-side applications.
               </p>
             </div>
           </li>
@@ -28,12 +29,25 @@ export const About = () => {
             <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
+              <br/>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              Specialized in React and JavaScript, with experience in creating dynamic and responsive user interfaces. 
+              Able to transform designs into interactive web applications, optimizing the user experience and ensuring smooth performance.
               </p>
             </div>
           </li>
+          <li className={styles.aboutItem}>
+              <img src={getImageUrl("about/salesforce.png")} alt="SF icon" className={styles.aboutItemText2} />
+              <div className={styles.aboutItemText2}>
+                <h3>Salesforce & Mulesoft integration</h3>
+                <br/>
+                <p>
+                Developer specialized in MuleSoft, with experience in integrating Salesforce and other systems. 
+                Able to create APIs and automate processes to connect applications and optimize business workflows.
+                </p>
+              </div>
+            </li>
+
         </ul>
       </div>
     </section>

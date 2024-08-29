@@ -8,8 +8,16 @@
     "imageSrc": "history/sigob.png"
   },
   {
+    "role": "Mulesoft Developer",
+    "organisation": "Capptus Academy",
+    "startDate": "March, 2024",
+    "endDate": "August,2024",
+    "experiences": ["Multi-System Integration with Mulesoft"],
+    "imageSrc": "history/capptus.jpeg"
+  },
+  {
     "role": "FrontEnd Developer",
-    "organisation": "Universidad Tecnologica de San Luis Rio Colorado",
+    "organisation": "UTSLRC",
     "startDate": "Sep, 2022",
     "endDate": "Dec, 2022",
     "experiences": ["Worked on design of website"],
