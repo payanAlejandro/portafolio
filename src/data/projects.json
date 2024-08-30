@@ -14,7 +14,7 @@
   {
     "title": "Mulesoft Integration",
     "imageSrc": "projects/mule.png",
-    "description": "This is a project made to learn to use IoT implemented real life.",
+    "description": "Synchronization of data between a REST database and Salesforce",
     "skills": ["Mule 4","Salesforce" ,"Anypoint", "REST"]
   }
 ]
