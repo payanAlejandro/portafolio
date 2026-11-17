@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sigob",
+    "organisation": "SIGOB S.A. de C.V.",
+    "logo": "history/sigob.png",
+    "period": "Marzo 2023 – Actualidad",
+    "roles": [
+      {
+        "title": "Desarrollador Full Stack",
+        "period": "Junio 2026 – Actualidad",
+        "summary": "SAC, el ERP gubernamental de contabilidad y nóminas.",
+        "highlights": [
+          {
+            "label": "Nómina y reloj checador",
+            "text": "Motor de evaluación de asistencia (incidencias, días de descanso, guardias y horarios compuestos), carga de reportes por API y Excel en lotes, justificaciones grupales por oficio, bonificaciones, descuentos y topes configurables por empleado y periodo de nómina."
+          },
+          {
+            "label": "Contabilidad y presupuestos",
+            "text": "Mejoras en claves presupuestales de egresos e ingresos, kardex al autorizar presupuestos anuales de ingresos, bitácora de errores en la creación de pólizas y reportes de cuentas por pagar."
+          },
+          {
+            "label": "Integración con recaudación",
+            "text": "Envío por lotes y en segundo plano de cortes de caja y conceptos de ingreso hacia contabilidad, con persistencia de envíos y bitácora de errores."
+          },
+          {
+            "label": "Frontend en React",
+            "text": "Pantallas de kardex de ingresos, justificación grupal, configuración de topes y visualización de reportes."
+          }
+        ],
+        "tags": ["Python", "Django", "PostgreSQL", "Celery", "React"]
+      },
+      {
+        "title": "Desarrollador Backend",
+        "period": "Marzo 2023 – Mayo 2026",
+        "summary": "SIR (OpenSIR), el sistema integral de recaudación e ingresos.",
+        "highlights": [
+          {
+            "label": "Recaudación e ingresos",
+            "text": "Módulos de padrones, trámites, cobros, órdenes de pago, recibos, convenios y cortes de caja, con modelos, validaciones, endpoints y reportes en PDF."
+          },
+          {
+            "label": "Reglas por cliente",
+            "text": "Adaptación de descuentos, reincidencias, formatos de órdenes y recibos, y apertura y reapertura de cortes según cada municipio."
+          },
+          {
+            "label": "Sistemas en producción",
+            "text": "Corrección de bugs críticos y mejoras de estabilidad y rendimiento, en coordinación con equipos de frontend y QA."
+          }
+        ],
+        "tags": ["Django REST Framework", "PostgreSQL", "Docker", "Git"]
+      }
+    ]
+  },
+  {
+    "id": "capptus",
+    "organisation": "Capptus Academy",
+    "logo": "history/capptus.jpeg",
+    "period": "Mayo 2024 – Agosto 2024",
+    "roles": [
+      {
+        "title": "Desarrollador MuleSoft Jr",
+        "period": "Estadía profesional",
+        "summary": "Integración de sistemas con MuleSoft y Salesforce.",
+        "highlights": [
+          {
+            "label": "Integración bidireccional",
+            "text": "Sincronización entre Salesforce (Account, Contact, Opportunity y un objeto personalizado) y una base de datos REST con Mule 4, Anypoint Studio y Anypoint Platform."
+          },
+          {
+            "label": "API-led connectivity",
+            "text": "Flujos encadenados por capas, enrutamiento con APIkit y manejo de errores para evitar fallas de sincronización."
+          },
+          {
+            "label": "Documentación",
+            "text": "Documento técnico de diseño (TDD), especificación RAML y configuración de Salesforce con aplicación conectada y OAuth. Rango Ranger en Trailhead."
+          }
+        ],
+        "tags": ["Mule 4", "Anypoint", "Salesforce", "RAML"]
+      }
+    ]
+  },
+  {
+    "id": "utslrc",
+    "organisation": "Innovación de Software, UTSLRC",
+    "logo": "history/ut.png",
+    "period": "Septiembre 2022 – Diciembre 2022",
+    "roles": [
+      {
+        "title": "Desarrollador Frontend",
+        "period": "Prácticas",
+        "summary": "Sistema web universitario con Vue.js.",
+        "highlights": [
+          {
+            "label": "Interfaz y APIs",
+            "text": "Integración de APIs REST con Vue.js, login con recuperación de contraseña, módulo de alumnos (CRUD) y las pantallas y menús del sistema."
+          }
+        ],
+        "tags": ["Vue.js", "JavaScript", "REST"]
+      }
+    ]
+  }
+]
