@@ -1,0 +1,18 @@
+# Dependencias (se instalan con `npm install`; Netlify las instala en cada build)
+node_modules/
+
+# Resultado del build
+dist/
+
+# Archivos locales
+.env
+.env.*
+!.env.example
+*.local
+.claude/
+
+# Logs y sistema
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db

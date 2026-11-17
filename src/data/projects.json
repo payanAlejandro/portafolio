@@ -1,20 +1,34 @@
 [
   {
-    "title": "Front-end SIE UTSLRC",
-    "imageSrc": "projects/SIE.png",
-    "description": "This is a project made to get approved the university practices.",
-    "skills": ["VueJS", "HTML","PHP","JavaScript"]
+    "title": "POS Uniformes",
+    "badge": "Proyecto personal · En desarrollo",
+    "description": "Punto de venta e inventarios PWA con operación sin conexión para una tienda de uniformes. Variantes por modelo, talla y color, turnos con arqueo, apartados y créditos, devoluciones, reportes de utilidad y rotación, exportación a Excel, datos fiscales para CFDI 4.0, control de acceso por rol y bitácora de auditoría.",
+    "tags": ["Django", "PostgreSQL", "React", "Tailwind", "Docker"],
+    "tone": "violet",
+    "icon": "cart"
+  },
+  {
+    "title": "Integración MuleSoft + Salesforce",
+    "badge": "Estadía profesional",
+    "description": "Sincronización bidireccional de datos entre una base de datos REST y Salesforce con API-led connectivity, APIkit y manejo de errores, documentada en un documento técnico de diseño (TDD).",
+    "tags": ["Mule 4", "Anypoint", "Salesforce", "REST"],
+    "tone": "blue",
+    "image": "projects/mule.png"
   },
   {
     "title": "uParkingLot",
-    "imageSrc": "projects/uparkinglot.png",
-    "description": "This is a project made to learn to use IoT implemented real life.",
-    "skills": ["Python", "IoT", "NodeJs","HTML"]
+    "badge": "Proyecto integrador",
+    "description": "Sistema de estacionamiento a escala con sensores de movimiento, LEDs infrarrojos y pantallas LCD, para aprender a llevar IoT a un caso real.",
+    "tags": ["Python", "IoT", "Node.js", "HTML"],
+    "tone": "pink",
+    "image": "projects/uparkinglot.png"
   },
   {
-    "title": "Mulesoft Integration",
-    "imageSrc": "projects/mule.png",
-    "description": "Synchronization of data between a REST database and Salesforce",
-    "skills": ["Mule 4","Salesforce" ,"Anypoint", "REST"]
+    "title": "SIE · Sistema Integral Educativo",
+    "badge": "Proyecto universitario",
+    "description": "Frontend del sistema para las prácticas profesionales de la universidad: login completo con recuperación de contraseña, módulo de alumnos y las pantallas y menús del sistema.",
+    "tags": ["Vue.js", "HTML", "PHP", "JavaScript"],
+    "tone": "teal",
+    "image": "projects/SIE.png"
   }
 ]

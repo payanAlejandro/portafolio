@@ -1,21 +1,45 @@
-import styles from "./App.module.css";
-import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
-import { Experience } from "./components/Experience/Experience";
-import { Hero } from "./components/Hero/Hero";
-import { Navbar } from "./components/Navbar/Navbar";
-import { Projects } from "./components/Projects/Projects";
+import { useEffect, useState } from "react";
+
+import { Contact } from "./components/Contact";
+import { Education } from "./components/Education";
+import { Experience } from "./components/Experience";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Projects } from "./components/Projects";
+import { Stack } from "./components/Stack";
 
 function App() {
+  const [theme, setTheme] = useState(
+    () => document.documentElement.getAttribute("data-theme") || "light"
+  );
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    try {
+      localStorage.setItem("theme", theme);
+    } catch {
+      /* el tema simplemente no se guarda */
+    }
+  }, [theme]);
+
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+      <a className="skip" href="#contenido">
+        Saltar al contenido
+      </a>
+      <Header
+        theme={theme}
+        onToggleTheme={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
+      />
+      <main id="contenido">
+        <Hero />
+        <Experience />
+        <Projects />
+        <Stack />
+        <Education />
+        <Contact />
+      </main>
+    </>
   );
 }
 

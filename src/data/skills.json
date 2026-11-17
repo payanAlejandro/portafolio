@@ -1,51 +1,22 @@
 [
   {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
+    "group": "Backend",
+    "items": ["Python", "Django", "Django REST Framework", "Celery", "Redis", "APIs REST", "Procesos asíncronos"]
   },
   {
-    "title": "Mulesoft",
-    "imageSrc": "skills/mulesoft_.png"
+    "group": "Bases de datos",
+    "items": ["PostgreSQL", "MySQL", "MongoDB"]
   },
   {
-    "title": "Salesforce",
-    "imageSrc": "skills/salesforce.png"
+    "group": "Frontend",
+    "items": ["React", "Ant Design", "Redux", "Vue.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
   },
   {
-    "title": "GIT",
-    "imageSrc": "skills/GIT.png"
+    "group": "Integración",
+    "items": ["MuleSoft", "Mule 4", "Anypoint", "RAML", "Salesforce"]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/js.png"
-  },
-  {
-    "title": "VueJS",
-    "imageSrc": "skills/vuejs.png"
-  },
-  {
-  "title": "HTML",
-  "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "MySQL",
-    "imageSrc": "skills/mysql.png"
+    "group": "Herramientas",
+    "items": ["Git", "GitHub", "Docker", "Docker Compose", "Nginx", "Postman"]
   }
 ]
